@@ -26,3 +26,4 @@ Trigger: Pull Request do gałęzi `main` uruchamia `safe_build`.
 ```bash
 ./gradlew testDebugUnitTest
 ```
+

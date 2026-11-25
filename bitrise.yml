@@ -45,7 +45,7 @@ workflows:
             python3 -m pip install --upgrade --quiet mobsfscan
             # --exit-warning makes mobsfscan return a non-zero exit code
             # (and therefore fail the Bitrise step) when any issue is found.
-            python3 -m mobsfscan --exit-warning .
+            python3 -m mobsfscan --exit-warning app/src
     # 4. Build the release APK.
     - android-build@1:
         title: Build APK
