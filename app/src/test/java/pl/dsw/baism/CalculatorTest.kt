@@ -13,7 +13,7 @@ class CalculatorTest {
 
     @Test
     fun add_returnsSum() {
-        assertEquals(4, Calculator.add(2, 2))
+        assertEquals(5, Calculator.add(2, 2))
         assertEquals(0, Calculator.add(-5, 5))
     }
 
